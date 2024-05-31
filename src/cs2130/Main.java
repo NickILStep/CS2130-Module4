@@ -15,10 +15,13 @@ public class Main {
         MatrixRelation mr1 = new MatrixRelation(m1);
 
         System.out.println("--------------------------------------------");
+        System.out.println("Matrix Relation:");
         mr1.show();
         System.out.println();
+        System.out.println("Reflexive Closure:");
         mr1.reflexiveClosure().show();
         System.out.println();
+        System.out.println("Symmetric Closure:");
         mr1.symmetricClosure().show();
         System.out.println();
         System.out.println("This graph could be a rooted tree: " + mr1.isRootedTree());
